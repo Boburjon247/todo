@@ -1,0 +1,45 @@
+.app-info{
+        display: flex;
+        align-content: center;
+        justify-content: space-between;
+}
+.app-info .icon-block{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 10px;
+}
+.app-info .icon-block .button-top-info{
+    width: 40px;
+    height: 40px;
+    background-color: #263555;
+    position: relative;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px #25365b;
+}
+.app-info .icon-block .button-top-info i{
+    font-size: 20px;
+    color: orange;
+}
+.app-info .icon-block .button-top-info span{
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    font-size: 10px;
+    width: 20px;
+    border-radius: 50%;
+    height: 20px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.app-info-top-title{
+    font-size: 25px;
+    text-transform: uppercase;
+    color: orange;
+    padding-left: 20px;
+    font-weight: bold;
+
+}
