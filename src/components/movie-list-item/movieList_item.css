@@ -1,26 +1,28 @@
 .listItem{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     background-color: #263555;
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 10px;
 }
+
 .listItemTitle{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     gap: 15px;
 }
 .listItemTitle i{
-    color: orange;
+    color: #fff;
     font-size: 18px;
 }
 .listItemTitle p{
     color: #b8b8b8;
+    display: inline-block;
+    cursor: pointer;
 }
-.listItem input{
+.listItem .input_valyu{
     padding: 8px;
     background-color: #19253E;
     color: #fff;
@@ -31,7 +33,7 @@
 .listItem .cooke_icon{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: end;
     gap: 10px;
 }
 .listItem .cooke_icon i{
@@ -49,4 +51,12 @@
 }
 .listItem .cooke_icon i:nth-last-child(1){
     color: red;
+}
+.listItem.favorites .listItemTitle p,
+.listItem.favorites .input_valyu,
+.listItemTitle i{
+    color: orange !important;
+}
+.listItem.like .listItemTitle i{
+    color: aqua !important;
 }

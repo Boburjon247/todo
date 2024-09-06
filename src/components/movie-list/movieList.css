@@ -1,4 +1,6 @@
 .movie-list{
     margin-top: 15px;
     min-height: 50vh;
+    height: 50vh;
+    overflow-x: auto;
 }

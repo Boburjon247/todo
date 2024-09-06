@@ -9,11 +9,11 @@ const AppInfo = () => {
       <div className='icon-block'>
         <div className='button-top-info'>
           <span>99</span>
-          <i class="fa-solid fa-earth-europe"></i>
+          <i className="fa-solid fa-earth-europe"></i>
         </div>
         <div className='button-top-info'>
           <span>99</span>
-          <i class="fa-solid fa-fire"></i>
+          <i className="fa-solid fa-fire"></i>
         </div>
       </div>
     </div>

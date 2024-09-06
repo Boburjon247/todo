@@ -1,0 +1,42 @@
+.addButton{
+    width: 50px;
+    height: 50px;
+    background-color: #263555;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    z-index: 151515151;
+}
+.addItemList{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #263555;
+    z-index: -1;
+    transition: all .3s;
+}
+.addItemList.active{
+    transition: all .3s;
+    bottom: -60px;
+}
+.addItemList input{
+    background-color: #111827;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    color: #fff;
+}
+.addButton i.fa-xmark{
+    color: red;
+}

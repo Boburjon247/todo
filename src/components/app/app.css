@@ -6,11 +6,17 @@
     color: #fff;
     height: 100vh;
     min-height: 100vh;
+    position: relative;
+    z-index: 20;
+
+
 }
-.contener{
+.centner{
     width: 80%;
     background-color: #020817;
     border-radius: 10px;
     box-shadow: 5px 5px 10px #1a2742;
     padding: 10px;
+    position: relative;
+
 }
