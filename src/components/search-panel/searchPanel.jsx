@@ -2,7 +2,9 @@ import './search.Panel.css'
 
 const SearchPanel = () => {
   return (
-    <div>SearchPanel</div>
+    <div className='app-search'>
+        <input type='text' placeholder='Qidiru...' />
+    </div>
   )
 }
 

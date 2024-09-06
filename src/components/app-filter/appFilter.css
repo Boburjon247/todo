@@ -1,0 +1,21 @@
+.app-filter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top:25px;
+    gap: 2px;
+}
+.app-filter button{
+    width: 100%;
+    color: #fff;
+    font-size: 18px;
+    padding: 8px;
+    background-color: #263555;
+    border: 1px solid rgba(255, 166, 0, 0.281);
+    cursor: pointer;
+}
+.app-filter button.active{
+    color: orange;
+    background-color: #19253e;
+
+}

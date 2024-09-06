@@ -1,5 +1,5 @@
 import './app.css'
-import {AppInfo, AppFilter, SearchPanel} from '../index'
+import {AppInfo, AppFilter, SearchPanel, MovieList} from '../index'
 const App = () => {
   return (
     <div className='app'>
@@ -7,6 +7,7 @@ const App = () => {
             <AppInfo/>
             <AppFilter/>
             <SearchPanel/>
+            <MovieList />
         </div>        
     </div>
   )
