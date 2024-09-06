@@ -5,6 +5,10 @@ const MovieList = () => {
     <div className='movie-list'>
       <ul>
         <MovieListItem />
+        <MovieListItem />
+        <MovieListItem />
+        <MovieListItem />
+        <MovieListItem />
       </ul>
     </div>
   )

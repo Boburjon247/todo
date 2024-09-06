@@ -5,6 +5,7 @@
     background-color: #263555;
     padding: 10px;
     border-radius: 5px;
+    margin-bottom: 10px;
 }
 .listItemTitle{
     display: flex;
